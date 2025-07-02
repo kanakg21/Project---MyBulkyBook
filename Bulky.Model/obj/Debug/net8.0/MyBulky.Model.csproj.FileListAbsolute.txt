@@ -10,3 +10,16 @@ E:\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\refint\MyBulky.Model.d
 E:\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\MyBulky.Model.pdb
 E:\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\ref\MyBulky.Model.dll
 E:\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\MyBulky.Model.csproj.AssemblyReference.cache
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\bin\Debug\net8.0\MyBulky.Model.deps.json
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\bin\Debug\net8.0\MyBulky.Model.dll
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\bin\Debug\net8.0\MyBulky.Model.pdb
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\MyBulky.Model.csproj.AssemblyReference.cache
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\MyBulky.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\MyBulky.Model.AssemblyInfoInputs.cache
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\MyBulky.Model.AssemblyInfo.cs
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\MyBulky.Model.csproj.CoreCompileInputs.cache
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\MyBulky.Model.sourcelink.json
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\MyBulky.Model.dll
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\refint\MyBulky.Model.dll
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\MyBulky.Model.pdb
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.Model\obj\Debug\net8.0\ref\MyBulky.Model.dll

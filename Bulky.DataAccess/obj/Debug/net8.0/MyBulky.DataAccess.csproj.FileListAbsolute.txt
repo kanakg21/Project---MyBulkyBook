@@ -17,3 +17,23 @@ E:\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\refint\MyBulky.Da
 E:\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.pdb
 E:\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.genruntimeconfig.cache
 E:\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\ref\MyBulky.DataAccess.dll
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\bin\Debug\net8.0\MyBulky.DataAccess.deps.json
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\bin\Debug\net8.0\MyBulky.DataAccess.runtimeconfig.json
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\bin\Debug\net8.0\MyBulky.DataAccess.dll
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\bin\Debug\net8.0\MyBulky.DataAccess.pdb
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\bin\Debug\net8.0\MyBulky.Model.dll
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\bin\Debug\net8.0\MyBulky.Utility.dll
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\bin\Debug\net8.0\MyBulky.Model.pdb
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\bin\Debug\net8.0\MyBulky.Utility.pdb
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.csproj.AssemblyReference.cache
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.AssemblyInfoInputs.cache
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.AssemblyInfo.cs
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.csproj.CoreCompileInputs.cache
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.sourcelink.json
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky..71DBE017.Up2Date
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.dll
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\refint\MyBulky.DataAccess.dll
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.pdb
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\MyBulky.DataAccess.genruntimeconfig.cache
+C:\Disk E\My Dotnet Project\MyBulky\Bulky.DataAccess\obj\Debug\net8.0\ref\MyBulky.DataAccess.dll

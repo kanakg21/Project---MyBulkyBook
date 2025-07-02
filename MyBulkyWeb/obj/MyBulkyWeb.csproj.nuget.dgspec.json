@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\MyBulkyWeb.csproj": {}
+    "C:\\Disk E\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\MyBulkyWeb.csproj": {}
   },
   "projects": {
-    "E:\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\MyBulky.DataAccess.csproj": {
+    "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\MyBulky.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\MyBulky.DataAccess.csproj",
+        "projectUniqueName": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\MyBulky.DataAccess.csproj",
         "projectName": "MyBulky.DataAccess",
-        "projectPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\MyBulky.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Kanak\\.nuget\\packages\\",
-        "outputPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\obj\\",
+        "projectPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\MyBulky.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\kanak\\.nuget\\packages\\",
+        "outputPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kanak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\My Dotnet Project\\MyBulky\\Bulky.Model\\MyBulky.Model.csproj": {
-                "projectPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.Model\\MyBulky.Model.csproj"
+              "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Model\\MyBulky.Model.csproj": {
+                "projectPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Model\\MyBulky.Model.csproj"
               },
-              "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj": {
-                "projectPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj"
+              "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj": {
+                "projectPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj"
               }
             }
           }
@@ -51,7 +51,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -100,24 +101,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\My Dotnet Project\\MyBulky\\Bulky.Model\\MyBulky.Model.csproj": {
+    "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Model\\MyBulky.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My Dotnet Project\\MyBulky\\Bulky.Model\\MyBulky.Model.csproj",
+        "projectUniqueName": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Model\\MyBulky.Model.csproj",
         "projectName": "MyBulky.Model",
-        "projectPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.Model\\MyBulky.Model.csproj",
-        "packagesPath": "C:\\Users\\Kanak\\.nuget\\packages\\",
-        "outputPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.Model\\obj\\",
+        "projectPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Model\\MyBulky.Model.csproj",
+        "packagesPath": "C:\\Users\\kanak\\.nuget\\packages\\",
+        "outputPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kanak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -144,7 +145,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -175,24 +177,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj": {
+    "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj",
+        "projectUniqueName": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj",
         "projectName": "MyBulky.Utility",
-        "projectPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj",
-        "packagesPath": "C:\\Users\\Kanak\\.nuget\\packages\\",
-        "outputPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\obj\\",
+        "projectPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj",
+        "packagesPath": "C:\\Users\\kanak\\.nuget\\packages\\",
+        "outputPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kanak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -219,7 +221,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -246,24 +249,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\MyBulkyWeb.csproj": {
+    "C:\\Disk E\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\MyBulkyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\MyBulkyWeb.csproj",
+        "projectUniqueName": "C:\\Disk E\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\MyBulkyWeb.csproj",
         "projectName": "MyBulkyWeb",
-        "projectPath": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\MyBulkyWeb.csproj",
-        "packagesPath": "C:\\Users\\Kanak\\.nuget\\packages\\",
-        "outputPath": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\obj\\",
+        "projectPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\MyBulkyWeb.csproj",
+        "packagesPath": "C:\\Users\\kanak\\.nuget\\packages\\",
+        "outputPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kanak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -279,8 +282,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\MyBulky.DataAccess.csproj": {
-                "projectPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\MyBulky.DataAccess.csproj"
+              "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\MyBulky.DataAccess.csproj": {
+                "projectPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\MyBulky.DataAccess.csproj"
               }
             }
           }
@@ -294,7 +297,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -342,7 +346,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

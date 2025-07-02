@@ -1,38 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\My Dotnet Project\\MyBulky\\",
+  "WorkspaceRootPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE5F2A4B-18F5-4E62-B390-CA9EE3019417}|MyBulkyWeb\\MyBulkyWeb.csproj|e:\\my dotnet project\\mybulky\\mybulkyweb\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE5F2A4B-18F5-4E62-B390-CA9EE3019417}|MyBulkyWeb\\MyBulkyWeb.csproj|solutionrelative:mybulkyweb\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE5F2A4B-18F5-4E62-B390-CA9EE3019417}|MyBulkyWeb\\MyBulkyWeb.csproj|e:\\my dotnet project\\mybulky\\mybulkyweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE5F2A4B-18F5-4E62-B390-CA9EE3019417}|MyBulkyWeb\\MyBulkyWeb.csproj|solutionrelative:mybulkyweb\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAB05270-46B1-4A3C-BC93-B3B9E8F480C0}|Bulky.DataAccess\\MyBulky.DataAccess.csproj|e:\\my dotnet project\\mybulky\\bulky.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAB05270-46B1-4A3C-BC93-B3B9E8F480C0}|Bulky.DataAccess\\MyBulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B58A727F-A4DE-4720-877D-ED6CC29CF215}|Bulky.Model\\MyBulky.Model.csproj|e:\\my dotnet project\\mybulky\\bulky.model\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B58A727F-A4DE-4720-877D-ED6CC29CF215}|Bulky.Model\\MyBulky.Model.csproj|solutionrelative:bulky.model\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD54C37B-371E-42A2-BF19-F069C64070DB}|Bulky.Utility\\MyBulky.Utility.csproj|e:\\my dotnet project\\mybulky\\bulky.utility\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD54C37B-371E-42A2-BF19-F069C64070DB}|Bulky.Utility\\MyBulky.Utility.csproj|solutionrelative:bulky.utility\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD54C37B-371E-42A2-BF19-F069C64070DB}|Bulky.Utility\\MyBulky.Utility.csproj|e:\\my dotnet project\\mybulky\\bulky.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD54C37B-371E-42A2-BF19-F069C64070DB}|Bulky.Utility\\MyBulky.Utility.csproj|solutionrelative:bulky.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE5F2A4B-18F5-4E62-B390-CA9EE3019417}|MyBulkyWeb\\MyBulkyWeb.csproj|e:\\my dotnet project\\mybulky\\mybulkyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE5F2A4B-18F5-4E62-B390-CA9EE3019417}|MyBulkyWeb\\MyBulkyWeb.csproj|solutionrelative:mybulkyweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE5F2A4B-18F5-4E62-B390-CA9EE3019417}|MyBulkyWeb\\MyBulkyWeb.csproj|e:\\my dotnet project\\mybulky\\mybulkyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DE5F2A4B-18F5-4E62-B390-CA9EE3019417}|MyBulkyWeb\\MyBulkyWeb.csproj|solutionrelative:mybulkyweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DE5F2A4B-18F5-4E62-B390-CA9EE3019417}|MyBulkyWeb\\MyBulkyWeb.csproj|c:\\disk e\\my dotnet project\\mybulky\\mybulkyweb\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE5F2A4B-18F5-4E62-B390-CA9EE3019417}|MyBulkyWeb\\MyBulkyWeb.csproj|solutionrelative:mybulkyweb\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,101 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "MyBulkyWeb\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ToolTip": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "MyBulkyWeb\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Disk E\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyBulkyWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Disk E\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "MyBulkyWeb\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T01:35:18.276Z",
+              "WhenOpened": "2025-06-16T11:18:40.204Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "MyBulkyWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "MyBulkyWeb\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T01:30:24.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "E:\\My Dotnet Project\\MyBulky\\Bulky.Model\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Bulky.Model\\Models\\ErrorViewModel.cs",
-              "ToolTip": "E:\\My Dotnet Project\\MyBulky\\Bulky.Model\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Bulky.Model\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:04:29.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StripeSettings.cs",
-              "DocumentMoniker": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\StripeSettings.cs",
-              "RelativeDocumentMoniker": "Bulky.Utility\\StripeSettings.cs",
-              "ToolTip": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\StripeSettings.cs",
-              "RelativeToolTip": "Bulky.Utility\\StripeSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:04:00.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SD.cs",
-              "DocumentMoniker": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\SD.cs",
-              "RelativeDocumentMoniker": "Bulky.Utility\\SD.cs",
-              "ToolTip": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\SD.cs",
-              "RelativeToolTip": "Bulky.Utility\\SD.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:03:52.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\Program.cs",
-              "RelativeDocumentMoniker": "MyBulkyWeb\\Program.cs",
-              "ToolTip": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\Program.cs",
-              "RelativeToolTip": "MyBulkyWeb\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:00:17.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\My Dotnet Project\\MyBulky\\Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:00:07.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "MyBulkyWeb\\appsettings.json",
-              "ToolTip": "E:\\My Dotnet Project\\MyBulky\\MyBulkyWeb\\appsettings.json",
-              "RelativeToolTip": "MyBulkyWeb\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T17:59:49.581Z"
             }
           ]
         }

@@ -2726,7 +2726,10 @@
           "MyBulky.Utility": "1.0.0"
         },
         "runtime": {
-          "MyBulky.DataAccess.dll": {}
+          "MyBulky.DataAccess.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "MyBulky.Model/1.0.0": {
@@ -2735,7 +2738,10 @@
           "Microsoft.Extensions.Identity.Stores": "8.0.0"
         },
         "runtime": {
-          "MyBulky.Model.dll": {}
+          "MyBulky.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "MyBulky.Utility/1.0.0": {
@@ -2743,7 +2749,10 @@
           "Microsoft.AspNetCore.Identity.UI": "8.0.0"
         },
         "runtime": {
-          "MyBulky.Utility.dll": {}
+          "MyBulky.Utility.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

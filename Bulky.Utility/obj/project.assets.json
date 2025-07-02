@@ -796,23 +796,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kanak\\.nuget\\packages\\": {},
+    "C:\\Users\\kanak\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj",
+      "projectUniqueName": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj",
       "projectName": "MyBulky.Utility",
-      "projectPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj",
-      "packagesPath": "C:\\Users\\Kanak\\.nuget\\packages\\",
-      "outputPath": "E:\\My Dotnet Project\\MyBulky\\Bulky.Utility\\obj\\",
+      "projectPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Utility\\MyBulky.Utility.csproj",
+      "packagesPath": "C:\\Users\\kanak\\.nuget\\packages\\",
+      "outputPath": "C:\\Disk E\\My Dotnet Project\\MyBulky\\Bulky.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kanak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kanak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -839,7 +839,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -866,7 +867,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
