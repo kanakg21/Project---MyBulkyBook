@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Humanizer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MyBulky.DataAccess.Repository.IRepository;
@@ -62,7 +63,7 @@ namespace MyBulkyWeb.Areas.Admin.Controllers
                 {
                     //it will give us a random name to image file
                     string filename=Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-                    string productpath=Path.Combine(wwwRootPath,@"images\product");
+                    string productpath=Path.Combine(wwwRootPath,@"images\product"); //Define where to save the file
 
                     //check if the image is present or not
                     if (!string.IsNullOrEmpty(productVM.Product.ImageUrl))

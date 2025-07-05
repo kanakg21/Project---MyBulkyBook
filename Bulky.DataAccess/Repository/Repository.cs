@@ -18,7 +18,7 @@ namespace MyBulky.DataAccess.Repository
         {
             _db=db;
             this.dbSet=_db.Set<T>();
-            _db.Products.Include(u => u.Category).Include(u => u.CategoryId);
+            _db.Products.Include(u => u.Category); //This tells EF Core to create a SQL query with a JOIN between Products and Categories
         }
 
         public void Add(T entity)
