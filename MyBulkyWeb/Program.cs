@@ -1,9 +1,10 @@
-using Microsoft.EntityFrameworkCore;
-using MyBulky.DataAccess.Data;
-using MyBulky.DataAccess.Repository.IRepository;
-using MyBulky.DataAccess.Repository;
+using Humanizer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.EntityFrameworkCore;
+using MyBulky.DataAccess.Data;
+using MyBulky.DataAccess.Repository;
+using MyBulky.DataAccess.Repository.IRepository;
 using MyBulky.Utility;
 using Stripe;
 
@@ -47,9 +48,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-//that will actually go inside Stripe. Get the secret key. And on there we will say get and type of the value is string that -
-//will fetch the value and assign that to the stripe configuration with that stripe has been configured in our project and -
-//we have also configured the connection strings for Secret key and public key.
+//This is a global setting provided by the Stripe SDK in C#.
+//It needs to be set before making any Stripe API calls.
+//In short:
+//You're telling the Stripe SDK: "Here is my secret key — use this for all future Stripe API requests in this app."
 StripeConfiguration.ApiKey=builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
 
 app.UseRouting();

@@ -1,11 +1,20 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Humanizer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 using MyBulky.DataAccess.Repository.IRepository;
 using MyBulky.Model.Models;
 using MyBulky.Model.ViewModels;
 using MyBulky.Utility;
+using Stripe;
 using Stripe.Checkout;
+using Stripe.Issuing;
+using System.Collections.Generic;
+using System.Numerics;
 using System.Security.Claims;
+using System.Threading.Channels;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace MyBulkyWeb.Areas.Customer.Controllers
 {
@@ -47,8 +56,9 @@ namespace MyBulkyWeb.Areas.Customer.Controllers
 
         public IActionResult Summary() 
         {
-            var claimsIdentity = (ClaimsIdentity)User.Identity;
-            var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+            // This method is used to display the summary of the shopping cart before placing an order.
+            var claimsIdentity = (ClaimsIdentity)User.Identity; 
+            var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value; 
 
             ShoppingCartVM = new()
             {
@@ -125,19 +135,35 @@ namespace MyBulkyWeb.Areas.Customer.Controllers
                 _unitOfWork.Save();
             }
 
-			if (applicationUser.CompanyId.GetValueOrDefault() == 0)
+            //Check if the user is a regular customer
+            if (applicationUser.CompanyId.GetValueOrDefault() == 0)
 			{
-                //it is regular customer account and we need to capture payment
+                // ⚠️ Stripe does not allow payment amounts below ₹50 (approx. $0.50).
+                // So this check ensures the order total meets the minimum required amount.
+                // If not, we show an error message and redirect the user back to the cart page to prevent a Stripe error.
+                if (ShoppingCartVM.OrderHeader.OrderTotal < 50)
+                {
+                    TempData["Error"] = "The total amount must be at least ₹50 to proceed to checkout.";
+                    return RedirectToAction("Index", "Cart");
+                }
+
+                //If the user has no CompanyId, they are a regular customer.
+                //If they are a company user, payment may not be required(e.g., they might pay later).
                 //Stripe Logic
                 var domain = "https://localhost:7145/";
                 var options = new Stripe.Checkout.SessionCreateOptions
                 {
+                    //SuccessUrl: After successful payment, user is redirected here.
+                    //CancelUrl: If they cancel payment, they return here.
+                    //LineItems: List of items in the shopping cart.
+                    //Mode: "payment" means a one - time payment(not subscription).
                     SuccessUrl = domain+$"Customer/Cart/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",
                     CancelUrl = domain+ "Customer/Cart/Index",
                     LineItems = new List<Stripe.Checkout.SessionLineItemOptions>(),
                     Mode = "payment",
                 };
 
+                //Add each cart item to the Stripe session
                 foreach (var item in ShoppingCartVM.ShoppingCartList)
                 {
                     var sessionLineItem = new SessionLineItemOptions
@@ -156,12 +182,16 @@ namespace MyBulkyWeb.Areas.Customer.Controllers
                     options.LineItems.Add(sessionLineItem);
                 }
 
+                //Create the Stripe session
                 var service = new Stripe.Checkout.SessionService();
                 Session session = service.Create(options);
+                //This tells Stripe: “Create a payment session using all the details above.”
+                //Save Stripe session info to your database
                 _unitOfWork.OrderHeader.UpdateStripePaymentID(ShoppingCartVM.OrderHeader.Id, session.Id, session.PaymentIntentId);
                 _unitOfWork.Save();
+                //The line that redirects the user to the Stripe payment page is:
                 Response.Headers.Add("Location", session.Url);
-                return new StatusCodeResult(303);
+                return new StatusCodeResult(303); //It forces the browser to redirect to the URL provided in the Location header (i.e., session.Url).
             }
 
 
@@ -171,22 +201,30 @@ namespace MyBulkyWeb.Areas.Customer.Controllers
         public IActionResult OrderConfirmation(int id)
         {
             OrderHeader orderHeader = _unitOfWork.OrderHeader.Get(u => u.Id == id, includeProperties: "ApplicationUser");
-            if(orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
+            //Check if this is a regular customer payment
+            //If payment is not delayed, it means it was made by a regular customer, and we need to verify payment status with Stripe.
+            if (orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
             {
-                //this is an order by customer
-
+                //Check Stripe Payment Status
+                //Calls Stripe API to fetch the session details using SessionId saved during checkout.
                 var service = new SessionService();
                 Session session = service.Get(orderHeader.SessionId);
 
-                if(session.PaymentStatus.ToLower() == "paid")
+                //If payment is marked as "paid" in Stripe
+                if (session.PaymentStatus.ToLower() == "paid")
                 {
                     _unitOfWork.OrderHeader.UpdateStripePaymentID(id, session.Id, session.PaymentIntentId);
                     _unitOfWork.OrderHeader.UpdateStatus(id, SD.StatusApproved, SD.PaymentStatusApproved);
                     _unitOfWork.Save();
 
                 }
+                //It updates the order record:Saves Stripe SessionId and PaymentIntentId.
+                //Marks order status as Approved and Payment Approved. Saves changes to the database.
+                //This ensures that only fully paid orders are marked as complete in your system.
             }
 
+            //After successful payment, we clear the user's shopping cart.
+            //After order is placed and confirmed, the user’s cart is cleared. This is important to avoid duplicate orders or leftover items.
             List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart
                 .GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
 

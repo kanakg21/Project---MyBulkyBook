@@ -504,12 +504,6 @@ C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\scopedcss\projec
 C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets.build.json
 C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets.development.json
 C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets\msbuild.MyBulkyWeb.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets\msbuild.MyBulkyWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets\msbuild.build.MyBulkyWeb.props
-C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MyBulkyWeb.props
-C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MyBulkyWeb.props
-C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\MyBulkyWeb.csproj.Up2Date
 C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\MyBulkyWeb.dll
@@ -517,3 +511,8 @@ C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\refint\MyBulkyWe
 C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\MyBulkyWeb.pdb
 C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\MyBulkyWeb.genruntimeconfig.cache
 C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\ref\MyBulkyWeb.dll
+C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Disk E\My Dotnet Project\MyBulky\MyBulkyWeb\obj\Debug\net8.0\staticwebassets.build.json.cache
